@@ -28,7 +28,7 @@
         max-width: 960px;
         margin: auto;
         flex-grow: 1;
-        order: 0;
+        order: 1;
 
         
     }
@@ -37,7 +37,7 @@
         max-width: 960px;
         margin: auto;
         flex-grow: 1;
-        order: 1;
+        order: 0;
         
     
     }
