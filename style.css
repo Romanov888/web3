@@ -1,6 +1,5 @@
 body {
     background-color: #37393d;
-        
     font-family: Arial, sans-serif;
     font-size: 14pt;
     font-style: normal;
@@ -14,6 +13,8 @@ header {
 .container{
     display: flex;
     flex-direction: column;
+    margin: auto;
+    
 }
 nav {
     margin: auto;
@@ -22,6 +23,8 @@ nav {
     width: 100%;
     flex-grow: 1;
     margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .div1{
@@ -29,6 +32,7 @@ nav {
     flex-grow: 1;
     margin: auto;
     background-color: #99aab5;
+    margin-bottom: 10px;
 
 }
 .form-1{
@@ -37,6 +41,7 @@ nav {
     margin: auto;
     order: 0;
     background-color: #99aab5;
+    margin-bottom: 10px;
 }
 .div2 {
     background-color: #99aab5;
@@ -58,20 +63,18 @@ nav {
     border-collapse: separate;
     text-indent: initial;
     border-spacing: 2px;
+    margin-bottom: 10px;
     
-    /*order: 1;*/
-    /*margin: 0 auto;*/
 }
 
 .tabl-chet{
     background-color: #7289da;
 }
-
+.liNav{
+    list-style-type: none;
+    
+}
 footer {
     background-color: #99aab5;
     order: 5;
 }
-
-
-/*<link rel="stylesheet" href="main.css">
-<link rel="stylesheet" href="desktop.css" media="(min-width: 700px)">*/
