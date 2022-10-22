@@ -2,9 +2,10 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width">
     <title>p2</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="desktop.css" media="(min-width: 700px)">
+    <link rel="stylesheet" media="screen and (min-width: 700px)" href="desktop.css">
 </head>
 
 <body>
@@ -16,13 +17,17 @@
             </div>
         </header>
 
-        <br>
+       
         <nav>
-            <a href="https://example.com">Ссылка1</a> <a href="https://example.com">Ссылка2</a> <a href="https://example.com">Ссылка3</a>
+            <ul>
+                <li class="liNav"><a href="https://example.com">Ссылка1</a></li>
+                <li class="liNav"><a href="https://example.com">Ссылка2</a></li> 
+                <li class="liNav"><a href="https://example.com">Ссылка3</a></li>
+            </ul>
         </nav>
-        <br>
 
 
+       
         <div class="div1">
             <ol class="">
                 <li> <a href = "http://example.com">Абсолютная гиперссылка</a></li>
@@ -34,40 +39,7 @@
                 <li> <a href = "https://example.com?par1&par2">Ссылка с двумя параметрами</a></li>
             </ol>
         </div>
-
-        <div class="div2">
-            <table class="tabl-1">
-                <tr class="">
-                    <th>Column1</th>
-                    <th>Column2</th>
-                    <th>Column3</th>
-                </tr>
-                <tr class="tabl-1">
-                    <td colspan="3" style="text-align: center;">UCell</td>
-                </tr>
-                <tr class="tabl-chet">
-                    <td>Cell1</td>
-                    <td>Cell2</td>
-                    <td>Cell3</td>
-                </tr>
-                <tr class="tabl-1">
-                    <td>Cell1</td>
-                    <td>Cell2</td>
-                    <td>Cell3</td>
-                </tr>
-                <tr class="tabl-chet">
-                    <td>Cell1</td>
-                    <td>Cell2</td>
-                    <td>Cell3</td>
-                </tr>
-                <tr class="tabl-1">
-                    <td>Cell1</td>
-                    <td>Cell2</td>
-                    <td>Cell3</td>
-                </tr>
-            </table>
-        </div>
-
+        
         <div class="form-1">
             <form action="/" method="POST" class="">
 
@@ -125,7 +97,6 @@
                     <textarea class="" name="field-name-2"></textarea>
                 </label><br />
 
-
                 <label>
                     <input type="checkbox" checked="checked" name="c1" />
                     С контрактом ознакомлен (а)
@@ -134,6 +105,37 @@
                 <input type="submit" value="Отправить" />
             </form>
         </div> 
+        
+        <table class="tabl-1">
+            <tr class="tabl-chet">
+                <th>Column1</th>
+                <th>Column2</th>
+                <th>Column3</th>
+            </tr>
+            <tr class="tabl-1">
+                <td colspan="3" style="text-align: center;">UCell</td>
+            </tr>
+            <tr class="tabl-chet">
+                <td rowspan="3">UCell</td>
+                <td>Cell2</td>
+                <td>Cell3</td>
+            </tr>
+            <tr class="tabl-1">
+                
+                <td>Cell2</td>
+                <td>Cell3</td>
+            </tr>
+            <tr class="tabl-chet">
+                
+                <td>Cell2</td>
+                <td>Cell3</td>
+            </tr>
+            <tr class="tabl-1">
+                <td>Cell1</td>
+                <td>Cell2</td>
+                <td>Cell3</td>
+            </tr>
+        </table>
 
         <footer id="" class="">
             Romanov
