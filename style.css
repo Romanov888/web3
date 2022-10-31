@@ -7,8 +7,15 @@ body {
    
 }
 header {
+    font-size: 20pt;
     background-color: #99aab5;
     text-align:center; 
+}
+img {
+    float:left;
+    margin:0px;
+    width:80px;
+    height:80px;
 }
 .container{
     display: flex;
@@ -27,12 +34,18 @@ nav {
     margin-bottom: 10px;
 }
 
+.menu {
+    list-style: none;
+    padding-left: 0;
+    margin-left:0 ;
+}
 .div1{
     width: 100%;
     flex-grow: 1;
     margin: auto;
     background-color: #99aab5;
     margin-bottom: 10px;
+    
 
 }
 .form-1{
@@ -70,10 +83,7 @@ nav {
 .tabl-chet{
     background-color: #7289da;
 }
-.liNav{
-    list-style-type: none;
-    
-}
+
 footer {
     background-color: #99aab5;
     order: 5;
