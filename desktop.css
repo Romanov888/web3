@@ -7,7 +7,12 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    
+    .menu {
+        list-style: none;
+    }
+    .menu li{
+        display: inline;
+    }
     .container{
         display: flex;
         flex-direction: column;
@@ -20,7 +25,7 @@
         max-width: 960px;
         margin: auto;
         flex-grow: 1;
-        justify-content: center;
+        /*justify-content: center;*/
         margin-bottom: 10px;
     
     }
@@ -54,5 +59,7 @@
     ol{
         display: inline-block;
     }
-    
+    footer {
+       text-align: left;
+    }
 }
